@@ -1,0 +1,22 @@
+{
+  "name": "ids-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "eslint . --ext ts,tsx --fix",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^7.1.0",
+    "typescript": "^5.2.0"
+  },
+  "keywords": [],
+  "author": "Gopi saravanan",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1"
+}
